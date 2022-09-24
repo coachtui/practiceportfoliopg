@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!--LIIIIIIINKS-->
+
+    <script src="https://kit.fontawesome.com/ed35775394.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/resources/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <!--HEADER SECTION-->
+    <header>
+        <div class="logo">
+            <img src="/resources/images/logo.jpg" alt="dev tui">
+        </div>
+        <button class="nav-toggle" aria-label=""toggle navigation>
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--INTRODUCTION-->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Tui Alailima</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img class="intro__img" src="/resources/images/TYR1.00_00_19_20.Still002.JPG" alt="picture of Tui">
+    </section>
+
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div> <!-- CLOSE SERVICE -->
+
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div> <!-- CLOSE SERVICE -->
+
+            <div class="service">
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div> <!-- CLOSE SERVICE -->
+        </div><!-- CLOSE SERVICES -->
+
+        <a href="#work" class="btn">See My Work</a>
+      </section>
+
+      <!--ABOUT ME-->
+
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about-me">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer based in the middle of the Pacific</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+
+        <img class= "about-me__img"src="/resources/images/TYR1.00_00_21_05.Still001.JPG" alt="Tui looking up thinking WTF">
+      </section>
+
+    <!--MY WORK-->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        
+        <div class="portfolio">
+
+            <!-- Portfolio Item 01-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1538402711619-389a3f39da40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 02-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1027&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 03-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1076&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 04-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1579412690850-bd41cd0af397?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 05-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 06-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 07-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1623916799434-114e844becc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 08-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 09-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1103&q=80" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+
+    <footer class="footer">
+        <!--  Replace with your own email address  -->
+        <a href="mailto:tui@tuialailima.com" class="footer__link">tui@tuialailima.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/coach.tui/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/coachtui" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/tuialailima" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.com/coachtui" target="_blank">
+                    <i class="fa-brands fa-codepen"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="/resources/js/index.js"></script>
+</body>
+</html>
